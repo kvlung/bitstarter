@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Sports Dimension</title>
+<title>Overrated Superstar</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
@@ -97,6 +97,10 @@ font-size: 11px;
 .footer a {
 color: #ccccff;
 }
+div.addthis_toolbox {
+width:250px;
+margin: 0 auto;
+}
 </style>
 </head>
 <body>
@@ -110,7 +114,7 @@ color: #ccccff;
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       </button>
-      <a class="brand" href="#">The Wedge</a>
+      <a class="brand" href="#">OverratedSuperstar</a>
       <div class="nav-collapse collapse">
 	<ul class="nav">
 	  <li class="active"><a href="#">Home</a></li>
@@ -174,10 +178,19 @@ color: #ccccff;
 	<button class="btn btn-success btn-large">Preorder</button>
       </div>
       <div class="span8 offset2 social">
-	<!-- Social buttons are not included in default Bootstrap -->
-	<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-	<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
-      </div>
+	<!-- AddThis Button BEGIN -->
+        <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+	  <a class="addthis_button_preferred_1"></a>
+	  <a class="addthis_button_preferred_2"></a>
+	  <a class="addthis_button_preferred_3"></a>
+	  <a class="addthis_button_preferred_4"></a>
+	  <a class="addthis_button_compact"></a>
+	  <a class="addthis_counter addthis_bubble_style"></a>
+	</div>
+	<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52241eef6bdfcadb"></script>
+	<!-- AddThis Button END -->
+        </div>
     </div>
   </div>
 
@@ -267,5 +280,14 @@ color: #ccccff;
 </div>
   
 </div>
-    
-  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43687998-1', 'overratedsuperstar.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
